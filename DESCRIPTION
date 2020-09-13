@@ -23,3 +23,5 @@ Suggests:
     shinydashboard,
     ggplot2
 VignetteBuilder: knitr
+URL: https://github.com/dobraga/tidycamara
+BugReports: https://github.com/dobraga/tidycamara/issues
