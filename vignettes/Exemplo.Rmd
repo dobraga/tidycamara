@@ -1,0 +1,31 @@
+---
+title: "Exemplo"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Exemplo}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(tidyverse)
+library(tidycamara)
+```
+
+
+```{r}
+download.cotas(2018:2020)
+```
+
+```{r}
+df <- read.cotas()
+df
+```
+
