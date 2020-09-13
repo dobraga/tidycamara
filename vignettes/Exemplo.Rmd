@@ -19,7 +19,6 @@ library(tidyverse)
 library(tidycamara)
 ```
 
-
 ```{r}
 download.cotas(2018:2020)
 ```
