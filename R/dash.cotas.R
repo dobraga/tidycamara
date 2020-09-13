@@ -1,3 +1,7 @@
+#' dash.cotas
+#'
+#' @export
+#'
 dash.cotas <- function(ano=NULL){
   if(!is.null(ano)){
     download.cotas(ano)

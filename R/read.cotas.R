@@ -1,3 +1,7 @@
+#' read.cotas
+#'
+#' @export
+#'
 read.cotas <- function(dir=tempdir()){
   files <- paste0(dir, "/", list.files(dir, "^Ano.+csv$"))
 

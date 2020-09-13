@@ -1,3 +1,7 @@
+#' download.cotas
+#'
+#' @export
+#'
 download.cotas <- function(ano=2020, dir=tempdir()){
   filename <- paste0("Ano-", ano, ".csv.zip")
   destfile <- paste0(dir, "/", filename)
